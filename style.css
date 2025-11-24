@@ -1,13 +1,87 @@
 * {
-        margin: 0;
+        margin: 10px;
         padding: 0;
         box-sizing: border-box;
     }
 
     body {
-        background: #f5f5f5;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         height: 100vh;
+
     }
+    .box1 {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 350px;
+        height: 250px;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-radius: 8px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        gap: 15px;
+
+    }
+    .icon {
+        display: flex;
+        align-self: flex-end;
+    }
+    .box2 {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .teambuilding {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 350px;
+        height: 250px;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-radius: 8px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        gap: 15px;
+    }
+    .karma {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 350px;
+        height: 250px;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-radius: 8px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        gap: 15px;
+    }
+    .box3 {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 350px;
+        height: 250px;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-radius: 8px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        gap: 15px;
+
+    }
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 13px;
+    }
+
+    
