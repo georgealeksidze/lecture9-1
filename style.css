@@ -32,7 +32,6 @@
     }
     .box2 {
         flex-direction: column;
-        justify-content: space-between;
     }
     .teambuilding {
         display: flex;
